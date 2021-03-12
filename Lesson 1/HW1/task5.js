@@ -2,6 +2,6 @@
 // вопросом: "Ваш возраст ...(введеное пользователем число) лет?". 
 // Далее в зависимости от выбора пользователя выводится модальное окно с информацией true или false.
 
-var age = prompt('How old are you?')
-var question = confirm ('Are you ' + age+ '?')
-alert (question)
+var age = prompt('How old are you?');
+var question = confirm ('Are you ' + age+ '?');
+alert (question);
