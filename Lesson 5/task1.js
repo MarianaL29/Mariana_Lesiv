@@ -4,8 +4,8 @@
 
 
 
-a = +prompt("Enter coordinate 'x':");
-b = +prompt("Enter coordinate 'y':");
+let a = +prompt("Enter coordinate 'x':");
+let b = +prompt("Enter coordinate 'y':");
 if (isNaN(a) || isNaN(b)) {
     console.log("'x' or 'y' isn't number!");
 }
@@ -16,7 +16,7 @@ let point = {
 };
 console.log(point);
 
-function GetQuadrant  (x, y) {
+function GetQuadrant  () {
     if (point.x > 0 && point.y > 0) {
         console.log("Point in the first quadrant");
     }
